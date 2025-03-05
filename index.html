@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <h2>Events and DOM</h2>
+
+    <table>
+        <tr>
+            <th>Click</th>
+            <th>Double Click</th>
+            <th>Mouse Over</th>
+            
+        </tr>
+        <tr>
+            <td><button onclick="changeHeading()">Change Heading</button></td>
+            <td><button ondblclick="changeBg()">Change BG Color</button></td>
+            <td><button onmouseover="hoverEffect()">Hover Effect</button></td>
+           
+        </tr>
+        <tr>
+            
+            <th>Change Text</th>
+            <th>Change Font</th>
+            <th>Mouse Out</th>
+            
+        </tr>
+        <tr>
+    
+            <td><button onclick="changeParaText()">Change Para Text</button></td>
+            <td><button onclick="changeFontStyle()">Change Font</button></td>
+            <td><button onmouseout="removeHover()">Remove Hover</button></td>
+           
+        </tr>
+        <tr>
+
+            <th>Increase Size</th>
+            <th>Decrease Size</th>
+            <th>Rotate Image</th>
+            
+            
+        </tr>
+        <tr>
+            <td><button onclick="increaseTextSize()">Increase Size</button></td>
+            <td><button onclick="decreaseTextSize()">Decrease Size</button></td>
+            <td><button onclick="rotateImage()">Rotate Image</button></td>
+            
+        </tr>
+    </table>
+
+    <h3 id="heading">This is a Old Heading</h3>
+    <p id="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla modi quibusdam quia repudiandae. Animi unde laudantium nihil ratione dicta magnam labore libero delectus quibusdam facilis, illum corrupti optio quaerat perferendis ipsam dolorem, tempora voluptas repellendus nisi ad? Ullam, veniam quos iusto adipisci nostrum labore reprehenderit ipsam, maxime deserunt laboriosam ex.</p>
+
+    <div id="contentDiv">
+        <p>Hidden Content! Click button again to hide.</p>
+    </div>
+
+    <p id="extraText">This is some extra text that can be shown or hidden.</p>
+
+    <img id="image" src="./img/img1.jpg" alt="Placeholder Image">
+
+    <script src="function.js"></script>
+
+</body>
+
+</html>
